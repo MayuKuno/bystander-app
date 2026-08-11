@@ -1,0 +1,128 @@
+{
+  "app": {
+    "titlePre": "How Would You ",
+    "titleEmphasis": "Step In",
+    "titlePost": "?"
+  },
+  "home": {
+    "browseByRelationship": "Browse by situation",
+    "browseByTopic": "Browse by topic",
+    "allScenarios": "All",
+    "heroEyebrow": "Learn through roleplay",
+    "heroText": "Practice real workplace and everyday moments through scenarios, and build your active bystander skills.",
+    "ctaExperience": "Take the 5-question check",
+    "heroCtaSecondary": "Browse scenarios",
+    "aboutEyebrow": "01",
+    "aboutTitle": "What's an active bystander?",
+    "aboutLead": "An active bystander is someone who, when they witness a discriminatory comment or behavior, doesn't look away — and steps in, in some form.\nYou don't need to make a big scene. A quick word in the moment, or just checking in afterward, can mean a lot to the person it happened to.",
+    "frameworkPreview": {
+      "distract": "Change the subject to ease the tension",
+      "delegate": "Bring in someone better placed to help",
+      "document": "Keep a record of what happened",
+      "delay": "Check in with them one-on-one, later",
+      "direct": "Say something, right in the moment"
+    },
+    "roleplayEyebrow": "02",
+    "roleplayTitle": "Why this roleplay — and how to use it",
+    "roleplayLead": "In-the-moment judgment calls are harder than they sound. Thinking through \"what would I actually do?\" ahead of time makes it easier to act when it counts.",
+    "howTo": {
+      "choose": { "title": "Pick a scenario", "body": "Choose a single situation that resonates with you, or hit \"Take the 5-question check\" for five scenarios back-to-back." },
+      "answer": { "title": "Decide what you'd do", "body": "Pick from four options, then write a quick line in your own words." },
+      "reflect": { "title": "See the feedback", "body": "See how that choice tends to land, and how other people answered — then carry it forward." }
+    },
+    "scenarioPickerEyebrow": "03",
+    "scenarioPickerTitle": "Choose a scenario",
+    "scenarioPickerLead": "Pick one situation and take your time thinking through what you'd actually do."
+  },
+  "scenario": {
+    "synopsis": "The setup",
+    "you": "You",
+    "chooseAction": "In this situation, how would you step in?",
+    "backToList": "Back to scenarios",
+    "nextScenario": "Next scenario",
+    "recommended": "Recommended approach",
+    "notRecommended": "That reaction makes sense — here's a further step",
+    "yourChoice": "Your choice",
+    "yourAnswerLabel": "Your answer",
+    "strategyIntro": "This is the “{strategy}” move in active bystander intervention",
+    "yourFreeResponseLabel": "Your written response",
+    "framework": "The 5 D's of Bystander Intervention",
+    "frameworkIntro": "There's more than one valid way to intervene. Choose based on the situation and your own safety.",
+    "voteHint": "Here's how others responded",
+    "yourNextMove": "Here's how they responded. What would you say or do next?",
+    "reactionExplain": {
+      "defensive": "When called out, people sometimes react defensively without quite meaning to — it's an almost automatic way of protecting themselves. This person seems to be doing just that.",
+      "confused": "Sometimes people genuinely don't register what the problem was, even once it's pointed out. This person seems to be caught in that kind of confusion.",
+      "reflective": "Some people are able to take a correction in stride and reflect on what they said. This person seems to be doing that."
+    },
+    "impressionPrompt": "Watching this play out, how did it make you feel?",
+    "reasoningPrompt": "Why did you decide to do that?",
+    "documentPrompt": "What would you record, and how would you follow up?",
+    "delegatePrompt": "Who would you raise this with, and how?",
+    "laterFollowUpPrompt": "If you brought this up with them afterward, what would you say?",
+    "yourNextMovePlaceholder": "Write what you'd actually say or do",
+    "impressionPlaceholder": "Write down how you felt",
+    "reasoningPlaceholder": "Write down your reasoning",
+    "submitResponse": "Submit",
+    "aiFeedbackTitle": "AI feedback",
+    "aiFeedbackComingSoon": "Coming soon — check back a little later."
+  },
+  "strategy": {
+    "distract": "Distract",
+    "delegate": "Delegate",
+    "document": "Document",
+    "delay": "Delay",
+    "direct": "Direct",
+    "none": ""
+  },
+  "topic": {
+    "lgbtq": "LGBTQ+ / Sexual orientation",
+    "disability": "Disability",
+    "race": "Race / Ethnicity",
+    "gender": "Gender",
+    "age": "Age",
+    "religion": "Religion / Faith",
+    "nationality": "Nationality / Origin",
+    "appearance": "Appearance / Body size",
+    "mental_health": "Mental health",
+    "pregnancy_parenting": "Pregnancy / Parenting / Caregiving",
+    "socioeconomic_class": "Socioeconomic background"
+  },
+  "relationship": {
+    "coworker": "Coworkers",
+    "manager": "Boss / Manager",
+    "friend": "Friends",
+    "family": "Family",
+    "stranger": "Strangers / Public"
+  },
+  "nav": {
+    "myPage": "My page"
+  },
+  "me": {
+    "title": "My Page",
+    "subtitle": "Your trends, based on how you've answered so far.",
+    "totalAnswered": "Scenarios answered",
+    "byStrategy": "Your most-used approach style",
+    "answeredScenarios": "Scenarios you've answered",
+    "retry": "Try again",
+    "empty": "You haven't answered any scenarios yet. Answer a few and your trends will show up here."
+  },
+  "diagnosis": {
+    "intro": {
+      "title": "Before you start",
+      "lead": "An active bystander is someone who, when they witness discriminatory comments or behavior, doesn't look away — they respond in some way.",
+      "purpose": "This roleplay walks you through 5 scenarios and asks how you'd respond if you were actually there.",
+      "emphasis": "This isn't about guessing the \"right\" answer. Take a moment with each scene and think through what you'd realistically do.",
+      "start": "Start"
+    },
+    "progress": "Question {current} of {total}",
+    "exit": "✕ Exit",
+    "next": "Next question",
+    "seeResult": "See my result",
+    "resultTitle": "Your result",
+    "resultIntro": "Here's what your 5 answers say about how you tend to step in.",
+    "resultBadge": "You're the “{strategy}” type",
+    "resultEmpty": "No clear pattern emerged from these 5 questions.",
+    "viewFullTrends": "See your full trends on My Page"
+  }
+}

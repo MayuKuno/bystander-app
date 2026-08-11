@@ -1,0 +1,1 @@
+DROP TABLE `relatable_reactions`;

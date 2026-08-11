@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1786062016944,
+      "tag": "0000_ambitious_scrambler",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1786066062344,
+      "tag": "0001_lean_shadow_king",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1786147520689,
+      "tag": "0002_light_leech",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1786412160154,
+      "tag": "0003_powerful_namor",
+      "breakpoints": true
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "app": {
+    "titlePre": "あなたなら",
+    "titleEmphasis": "どう味方する",
+    "titlePost": "？"
+  },
+  "home": {
+    "browseByRelationship": "シチュエーション別から選ぶ",
+    "browseByTopic": "トピックから選ぶ",
+    "allScenarios": "すべて",
+    "heroEyebrow": "ロールプレイで学ぶ",
+    "heroText": "職場や日常で起こりうる場面をシナリオで体験しながら、アクティブバイスタンダーシップを学べるサイトです。",
+    "ctaExperience": "5問で傾向診断",
+    "heroCtaSecondary": "シナリオを見る",
+    "aboutEyebrow": "01",
+    "aboutTitle": "アクティブバイスタンダーとは",
+    "aboutLead": "「アクティブバイスタンダー」とは、差別的な発言や態度を目の当たりにしたとき、見て見ぬふりをせず、何らかの形で行動する人のことです。\n大げさに指摘する必要はありません。ちょっとした一言や後からのフォローだけでも、その場にいる当事者にとって大きな支えになります。",
+    "frameworkPreview": {
+      "distract": "話題を変えて、その場の空気をやわらげる",
+      "delegate": "対応できる人に相談し、力を借りる",
+      "document": "起きたことを記録に残しておく",
+      "delay": "落ち着いてから、本人に個別に声をかける",
+      "direct": "その場で、まっすぐに伝える"
+    },
+    "roleplayEyebrow": "02",
+    "roleplayTitle": "このロールプレイの意義と使い方",
+    "roleplayLead": "とっさの判断は、意外と難しいもの。「自分だったらどうする？」を今のうちに考えておくことで、いざという時に動けるようになります。",
+    "howTo": {
+      "choose": { "title": "シナリオを選ぶ", "body": "気になる場面を1つ選んでもいいし、「5問で傾向診断」ならランダムな5つのシナリオに連続で挑戦できます。" },
+      "answer": { "title": "自分ならどうするか答える", "body": "4つの選択肢から選び、そのあとの一言も自由に書いてみましょう。" },
+      "reflect": { "title": "フィードバックを見る", "body": "その選択がどう受け止められるか、他の人はどう答えたかを見て、次に活かしましょう。" }
+    },
+    "scenarioPickerEyebrow": "03",
+    "scenarioPickerTitle": "シナリオを選ぶ",
+    "scenarioPickerLead": "1つの場面をじっくり選んで、その場にいたらどうするか考えてみましょう。"
+  },
+  "scenario": {
+    "synopsis": "あらすじ",
+    "you": "あなた",
+    "chooseAction": "あなたなら、どう対応しますか？",
+    "backToList": "シナリオ一覧に戻る",
+    "nextScenario": "次のシナリオへ",
+    "recommended": "推奨されるアプローチ",
+    "notRecommended": "その気持ち、大切です。さらにできることも",
+    "yourChoice": "あなたの選択",
+    "yourAnswerLabel": "あなたの回答",
+    "strategyIntro": "これはアクティブバイスタンダーの「{strategy}」です",
+    "yourFreeResponseLabel": "自由記述のあなたの回答",
+    "framework": "5つのD（アクティブバイスタンダーの基本戦略）",
+    "frameworkIntro": "介入の方法にはいくつかの型があります。状況や自分の安全に応じて選びましょう。",
+    "voteHint": "他の人はこう選びました",
+    "yourNextMove": "相手はこう返してきました。あなたなら、次にどう続けますか？",
+    "reactionExplain": {
+      "defensive": "指摘をされたとき、人はとっさに自分を守ろうとして、つい反発してしまうことがあります。この相手も、そうした防御的な反応を見せているようです。",
+      "confused": "指摘をされても、何がいけなかったのかをその場では飲み込めないことがあります。この相手は、そうした戸惑いを見せているようです。",
+      "reflective": "指摘を素直に受け止めて、自分の言動を振り返れる人もいます。この相手は、そうした反応を見せているようです。"
+    },
+    "impressionPrompt": "この場面を見て、あなたはどう感じましたか？",
+    "reasoningPrompt": "なぜそうすることにしましたか？",
+    "documentPrompt": "何を記録し、どう対応しますか？",
+    "delegatePrompt": "誰に、どのように相談しますか？",
+    "laterFollowUpPrompt": "後でフォローするとしたら、何と声をかけますか？",
+    "yourNextMovePlaceholder": "実際に言うこと・することを書いてみましょう",
+    "impressionPlaceholder": "感じたことを書いてみましょう",
+    "reasoningPlaceholder": "理由を書いてみましょう",
+    "submitResponse": "送信する",
+    "aiFeedbackTitle": "AIフィードバック",
+    "aiFeedbackComingSoon": "準備中です。もうしばらくお待ちください。"
+  },
+  "strategy": {
+    "distract": "Distract（そらす）",
+    "delegate": "Delegate（委ねる）",
+    "document": "Document（記録する）",
+    "delay": "Delay（後で）",
+    "direct": "Direct（直接）",
+    "none": ""
+  },
+  "topic": {
+    "lgbtq": "性自認・性的指向",
+    "disability": "障がい",
+    "race": "人種・国籍",
+    "gender": "ジェンダー",
+    "age": "年齢",
+    "religion": "宗教・信仰",
+    "nationality": "国籍・出自",
+    "appearance": "外見・体型",
+    "mental_health": "メンタルヘルス",
+    "pregnancy_parenting": "妊娠・育児・介護",
+    "socioeconomic_class": "経済状況・学歴"
+  },
+  "relationship": {
+    "coworker": "同僚",
+    "manager": "上司",
+    "friend": "友達",
+    "family": "家族",
+    "stranger": "見知らぬ人"
+  },
+  "nav": {
+    "myPage": "マイページ"
+  },
+  "me": {
+    "title": "マイページ",
+    "subtitle": "これまでの回答から見えてくる、あなたの傾向です。",
+    "totalAnswered": "回答したシナリオ",
+    "byStrategy": "よく選ぶ対応スタイル",
+    "answeredScenarios": "回答済みのシナリオ",
+    "retry": "もう一度挑戦する",
+    "empty": "まだ回答したシナリオがありません。シナリオに答えると、ここに傾向が表示されます。"
+  },
+  "diagnosis": {
+    "intro": {
+      "title": "はじめに",
+      "lead": "アクティブバイスタンダーとは、差別的な発言や態度を目の当たりにしたとき、見て見ぬふりをせず、何らかの形で行動する人のことです。",
+      "purpose": "このロールプレイでは、5つのシナリオを通じて、もしあなたが実際にその場にいたら、どう対応するかを考えていきます。",
+      "emphasis": "「正解」を当てることが目的ではありません。それぞれの場面で、自分なら現実的にどう行動するかを、じっくり考えてみてください。",
+      "start": "はじめる"
+    },
+    "progress": "設問 {current} / {total}",
+    "exit": "✕ やめる",
+    "next": "次の設問へ",
+    "seeResult": "診断結果を見る",
+    "resultTitle": "診断結果",
+    "resultIntro": "今回選んだ5つの対応から見えてきた、あなたの傾向です。",
+    "resultBadge": "あなたは「{strategy}」タイプ",
+    "resultEmpty": "今回の5問では、はっきりした傾向は出ませんでした。",
+    "viewFullTrends": "マイページで全体の傾向を見る"
+  }
+}
