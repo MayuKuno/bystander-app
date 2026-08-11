@@ -1,3 +1,5 @@
+import { fileURLToPath } from 'node:url'
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2026-01-01',
@@ -20,6 +22,15 @@ export default defineNuxtConfig({
 
   typescript: {
     strict: true
+  },
+
+  nitro: {
+    // db/migrations must ship inside the server bundle itself (not read from disk at
+    // runtime) so migrations still apply on serverless targets like Vercel, where the
+    // deployed function has no access to the source tree. See server/plugins/db-migrate.ts.
+    serverAssets: [
+      { baseName: 'migrations', dir: fileURLToPath(new URL('./db/migrations', import.meta.url)) }
+    ]
   },
 
   runtimeConfig: {
