@@ -21,8 +21,10 @@
   非互換な `unhead@2.x` を含む新しいpatchが入り、言語切り替えが壊れる。むやみに上げないこと）
 - DB: Drizzle ORM + `@libsql/client`（libSQL、ローカルではファイルDB `.data/app.db`）。
   `better-sqlite3` はこの開発機のXcode Command Line Tools（clang 11、C++20非対応）でネイティブ
-  ビルドに失敗したため不採用。libSQLはプリビルドバイナリで動き、将来サーバーレスへ
-  デプロイする場合もTurso（リモートlibSQL）にURLを差し替えるだけで移行できる
+  ビルドに失敗したため不採用。libSQLはプリビルドバイナリで動く。デプロイ先はVercel、DBは
+  Turso（リモートlibSQL）を想定しており、`server/utils/db.ts` が `runtimeConfig`
+  （`NUXT_TURSO_DATABASE_URL` / `NUXT_TURSO_AUTH_TOKEN`。`.env.example` 参照）の有無で
+  ローカルファイルDBとTursoを自動的に切り替える（未設定ならファイルDBにフォールバック）
 - **ゲスト向け機能（一覧・回答・`/me`）にアカウント・ログインは無い**。ブラウザに発行する
   匿名Cookie（`guest_id`）だけが唯一の識別子。過去に nuxt-auth-utils でログイン機能を
   実装したことがあるが、「ゲストのまま気軽に触れる」体験を優先してユーザー判断で撤去した。

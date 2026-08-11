@@ -14,7 +14,7 @@
 - [Nuxt 3](https://nuxt.com/)（Vue 3 + TypeScript, Composition API）
 - [@nuxtjs/i18n](https://i18n.nuxtjs.org/)
 - Nuxt server routes（Nitro）をAPIバックエンドとして使用
-- [Drizzle ORM](https://orm.drizzle.team/) + [libSQL](https://github.com/tursodatabase/libsql)（ローカルファイルDB）
+- [Drizzle ORM](https://orm.drizzle.team/) + [libSQL](https://github.com/tursodatabase/libsql)（ローカルはファイルDB、デプロイ先は[Turso](https://turso.tech/)に切り替え）
 
 詳細な設計判断・ディレクトリ構成は [`CLAUDE.md`](./CLAUDE.md) を参照してください。
 
@@ -29,12 +29,14 @@ npm run dev
 初回起動時にマイグレーションが自動で適用されます。アカウント登録・ログインはなく、ブラウザに発行される
 匿名Cookie（`guest_id`）だけで投票・個人の回答傾向（`/me`）が成立します。
 
+デプロイ（Vercel + Turso想定）時に必要な環境変数は [`.env.example`](./.env.example) を参照してください。
+
 ## このプロジェクトについて
 
 このリポジトリは、[Claude Code](https://code.claude.com) を使って開発を進める前提のスキャフォールドです。
 MVP（シナリオ一覧・詳細・選択・フィードバック表示、複数シナリオ、日英対応）から拡張し、
 topic/relationshipによる絞り込み、選択率の可視化、5問連続の診断モード（`/diagnosis`）、
-個人の回答傾向ページ（`/me`）まで動作しますが、管理画面などは未実装です。実装予定は
+個人の回答傾向ページ（`/me`）、シナリオ管理画面（`/admin`）まで動作します。今後の実装予定は
 [`BACKLOG.md`](./BACKLOG.md) にまとめています。
 
 ### Claude Code のセットアップ
